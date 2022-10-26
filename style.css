@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #A0FCD6;
+}
+
+.elcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: solid 1px black;
+}
+
+.s-row {
+    text-align: center;
+}
+
+.s-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.play {
+    margin-bottom: 1rem;
+}
+
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    aspect-ratio: 1/1;
+    background-color: whitesmoke;
+}
+
+.cell.active {
+    background-color: green;
+}
+}
+
+.cell.active {
+    background-color: blue;
+}
