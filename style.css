@@ -36,6 +36,8 @@ body {
     background-color: whitesmoke;
 }
 
+
+
 .cell.active {
     background-color: green;
 }
